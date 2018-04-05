@@ -47,6 +47,7 @@ public class FXMLschoolController implements Initializable {
         // TODO
         AdminAccess.setVisible(false);
         //this is a comment
+        //on test à chaque fois
     }    
 
     @FXML
