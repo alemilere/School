@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="Body" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projschool.FXMLschoolController">
+   <children>
+      <AnchorPane fx:id="LogContainer" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #20759c;">
+         <children>
+            <AnchorPane fx:id="LogpPanel" layoutX="229.0" layoutY="106.0" prefHeight="557.0" prefWidth="567.0" style="-fx-background-color: #225066;">
+               <children>
+                  <JFXButton fx:id="logButton" layoutX="320.0" layoutY="432.0" onAction="#handleaction" prefHeight="71.0" prefWidth="243.0" ripplerFill="#eeeeee" style="-fx-background-color: #225066;" text="Log In">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXTextField fx:id="username" layoutX="55.0" layoutY="176.0" maxWidth="473.0" minWidth="315.0" prefHeight="32.0" prefWidth="473.0" promptText="Enter Username" unFocusColor="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="password" layoutX="55.0" layoutY="302.0" maxWidth="473.0" minWidth="309.0" prefHeight="32.0" prefWidth="473.0" promptText="Enter Password" unFocusColor="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXPasswordField>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <AnchorPane fx:id="AdminAccess" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #20759c;">
+         <children>
+            <JFXButton layoutX="35.0" layoutY="134.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Etudiants" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="361.0" layoutY="134.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Inscriptions" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="709.0" layoutY="134.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Paiements" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="35.0" layoutY="312.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Enseignants" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="361.0" layoutY="312.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Salles" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="709.0" layoutY="312.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Agents" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="25.0" layoutY="497.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Groupes" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="361.0" layoutY="497.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Matieres" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="709.0" layoutY="497.0" prefHeight="145.0" prefWidth="276.0" text="Gérer Horaires" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
