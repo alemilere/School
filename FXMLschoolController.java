@@ -46,7 +46,7 @@ public class FXMLschoolController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         AdminAccess.setVisible(false);
-        
+        //this is a comment
     }    
 
     @FXML
